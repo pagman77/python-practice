@@ -14,3 +14,5 @@ def multiple_letter_count(phrase):
         else:
             frequency_counter[ltr] += 1
     return frequency_counter
+
+    #can solve with dictonary comprehension

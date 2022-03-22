@@ -27,3 +27,5 @@ def is_palindrome(phrase):
     phrase_list = phrase_list_char.copy()
     phrase_list_char.reverse()
     return phrase_list == phrase_list_char
+
+#slice could give fewer lines

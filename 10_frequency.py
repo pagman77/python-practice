@@ -8,10 +8,4 @@ def frequency(lst, search_term):
         0
     """
 
-    frequency_counter = {}
-    for ltr in lst:
-        if ltr not in frequency_counter:
-            frequency_counter[ltr] = 1
-        else:
-            frequency_counter[ltr] += 1
-    return frequency_counter.get(search_term, 0)
+    return lst.count(search_term)

@@ -10,5 +10,6 @@ def single_letter_count(word, letter):
         >>> single_letter_count("Hello World", 'l')
         3
     """
-    count = [ltr for ltr in word if letter == ltr.lower()]
-    return len(count)
+    # count = [ltr for ltr in word if letter == ltr.lower()]
+    # return len(count)
+    return word.lower().count(letter.lower())
