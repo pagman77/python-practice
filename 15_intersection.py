@@ -17,3 +17,5 @@ def intersection(l1, l2):
     s2 = set(l2)
     intersection = s1 & s2
     return list(intersection)
+
+    # could also be : [num for num in s1 if num in s2]

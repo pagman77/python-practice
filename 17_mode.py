@@ -15,5 +15,6 @@ def mode(nums):
     highest_count = 0
     for num in nums:
         if nums.count(num) > highest_count:
+            highest_count = nums.count(num)  #highest count should be updated too!
             most_common = num
     return most_common
